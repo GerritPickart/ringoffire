@@ -1,0 +1,30 @@
+.start-screen {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        height: 100vh;
+        width: 100vw;
+        object-fit: contain;
+    }
+
+    p {
+        position: absolute;
+        bottom: 10vh;
+        color: white;
+        font-size: 50px;
+    
+
+        &:hover{
+            cursor: pointer;
+            color: rgb(84, 131, 218);
+        }
+    }
+
+    
+}
