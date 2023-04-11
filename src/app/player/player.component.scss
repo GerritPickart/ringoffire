@@ -1,0 +1,25 @@
+.player {
+   width: 300px;
+    display: flex;
+   align-items: center;
+   background-color: lightcyan;
+   border-top-left-radius: 50px;
+   border-bottom-left-radius: 50px;
+
+   span {
+    font-size: 24px;
+    margin-left: 16px;
+   }
+   
+   
+    img {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+}
+
+.player-active {
+    background-color: pink;
+}
